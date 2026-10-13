@@ -1,0 +1,3 @@
+T1046 Network Service Discovery (MITRE ATT&CK, Discovery). Prototype summary: an attacker probes many ports on a host to learn which services are open. Firewall logs show many denied connections from one source to many different destination ports in seconds.
+
+Detection: alert on one source touching many ports in a short window. Mitigations: expose only needed services, default-deny firewall rules, block or rate-limit the source after review.

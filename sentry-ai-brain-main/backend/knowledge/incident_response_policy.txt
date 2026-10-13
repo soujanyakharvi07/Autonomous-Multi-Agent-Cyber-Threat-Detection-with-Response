@@ -1,0 +1,3 @@
+SAMPLE incident response policy (demonstration document, not a real organisation's policy). HIGH severity incidents must be reviewed by an analyst promptly. Containment actions that affect users or production systems, such as blocking an address, locking an account or isolating a host, require analyst approval before execution. Preserve the relevant logs as evidence, document every action taken and the reason, and reset credentials of any account believed compromised.
+
+MEDIUM severity incidents should be monitored and reviewed in the next analyst shift. LOW severity events are recorded for trend analysis.

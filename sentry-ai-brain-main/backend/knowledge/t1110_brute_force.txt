@@ -1,0 +1,5 @@
+T1110 Brute Force (MITRE ATT&CK, Credential Access). Prototype summary: adversaries repeatedly guess passwords to gain access to accounts. In logs this appears as many failed authentication events from one source against one account in a short time, sometimes followed by a successful login.
+
+Detection: monitor authentication logs for many failures in a short window and for a success right after a burst of failures. Mitigations: account lockout or throttling, multi-factor authentication, strong password policy, restrict exposure of remote login services.
+
+(Replace or extend this file with the official MITRE text for your report.)

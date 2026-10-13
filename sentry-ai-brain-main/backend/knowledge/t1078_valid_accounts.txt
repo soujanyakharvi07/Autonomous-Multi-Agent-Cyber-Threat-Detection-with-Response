@@ -1,0 +1,3 @@
+T1078 Valid Accounts (MITRE ATT&CK). Prototype summary: an attacker who obtains legitimate credentials can log in like a normal user, which makes the activity harder to notice. A successful login directly after a burst of failures from the same source is a strong sign that credentials were guessed.
+
+Response: treat the account as potentially compromised, review what it did after the login, force a credential reset and revoke active sessions.

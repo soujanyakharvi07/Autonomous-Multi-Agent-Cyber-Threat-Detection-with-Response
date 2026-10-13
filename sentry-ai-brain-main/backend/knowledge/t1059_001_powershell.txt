@@ -1,0 +1,3 @@
+T1059.001 PowerShell (MITRE ATT&CK, Execution). Prototype summary: attackers use PowerShell to run commands and scripts after gaining access. PowerShell started shortly after a suspicious login is a post-authentication warning sign.
+
+Detection: monitor process creation and script logging. Response: review the commands executed, isolate the host if malicious activity is confirmed.

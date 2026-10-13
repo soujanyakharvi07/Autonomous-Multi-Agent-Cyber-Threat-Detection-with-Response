@@ -1,0 +1,3 @@
+import { Shield, Network } from "lucide-react";
+import { cn } from "@/lib/utils";
+export function Brand({compact=false,className}:{compact?:boolean;className?:string}){return <div className={cn("flex items-center gap-3",className)}><div className="relative grid size-9 place-items-center rounded-md border border-primary/40 bg-primary/10 text-primary"><Shield className="size-5"/><Network className="absolute -bottom-1 -right-1 size-3 rounded-sm bg-background p-0.5"/></div>{!compact&&<div><div className="font-display text-[15px] font-bold tracking-[0.14em] text-foreground">SENTINEL-X</div><div className="text-[9px] uppercase tracking-[0.13em] text-muted-foreground">Autonomous Defense</div></div>}</div>}

@@ -1,0 +1,3 @@
+T1005 Data from Local System (MITRE ATT&CK, Collection). Prototype summary: after access, attackers look through local files for valuable data such as finance or credential files. Access to sensitive directories right after a suspicious login suggests data theft attempts.
+
+Response: review which files were accessed, check for copies or exfiltration, notify the data owner.
